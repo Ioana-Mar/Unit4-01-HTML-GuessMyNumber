@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(182 229 24);
+  font-family: "Georgia", serif;
+  color: grey;
+  font-weight: bold;
+  font-size: large;
+}
+
+h1{
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+
+td{
+  text-align: left;
+  padding: 8px;
+}
+
+.mar{
+  margin-left: 50px;
+}
