@@ -63,11 +63,11 @@ Unit4-01-HTML-GuessMyNumber
                   class="mdl-textfield__input" 
                   type="number" 
                   pattern="-?[0-9]*(\.[0-9]+)?" 
-                  id="rand-int"
+                  id="guess"
                   step="1"
                   min="1"
                   max="6">
-                <label class="mdl-textfield__label" for="rand-int">Guess...</label>
+                <label class="mdl-textfield__label" for="guess">Guess...</label>
                 <span class="mdl-textfield__error">not a good number</span>
               </div>
             </form>
@@ -77,9 +77,13 @@ Unit4-01-HTML-GuessMyNumber
       
       <!-- accent button with ripples -->
       <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="buttonClicked()">guess!</button>
+      <br>
+      <br>
       
       <!-- Displays answer when clicked -->
-      <div id="answer"></div>
+      <div id="answer" class="blue"></div>
     </div>
+    <br>
+    <br>
   </body>
 </html>

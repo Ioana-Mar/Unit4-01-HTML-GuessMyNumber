@@ -1,7 +1,7 @@
 body{
-  background-color: rgb(182 229 24);
+  background-color: rgb(182, 229, 24);
   font-family: "Georgia", serif;
-  color: grey;
+  color: white;
   font-weight: bold;
   font-size: large;
 }
@@ -9,6 +9,14 @@ body{
 h1{
   text-align: center;
   font-family: "Georgia", serif;
+  background-color: #2D93AD;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-style: dotted;
+}
+
+p{
+  background-color: #2D93AD;
 }
 
 td{
@@ -18,4 +26,8 @@ td{
 
 .mar{
   margin-left: 50px;
+}
+
+.blue{
+  color: #2D93AD;
 }
